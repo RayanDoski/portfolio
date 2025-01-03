@@ -3,7 +3,7 @@ import { Github, ExternalLink, Code } from 'lucide-react';
 import './projects.css';
 
 import scandifit from '../../../assets/images/scandifit.png';
-// import doskiflix from '../../../assets/images/doskiflix.png';
+import doskiflix from '../../../assets/images/doskiflix.png';
 import portfolio from '../../../assets/images/portfolio.png';
 
 const Projects = () => {
@@ -23,7 +23,7 @@ const Projects = () => {
       title: "Doskiflix",
       description: "A full-stack movie platform built with React and Flask, featuring user authentication and movie recommendations.",
       technologies: ["React", "JavaScript", "Flask", "Python", "JSON", "HTML", "CSS"],
-      image: "/api/placeholder/600/400",
+      image: doskiflix,
       githubLink: "https://github.com/RayanDoski/DoskiFlix",
       // liveLink: "https://project2.com",
       category: "fullstack"
